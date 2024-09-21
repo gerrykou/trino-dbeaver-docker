@@ -1,0 +1,16 @@
+services:
+  trino:
+    image: "trinodb/trino:452"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docker/trino/etc:/usr/lib/trino/etc:ro
+      - ./docker/trino/catalog:/etc/trino/catalog
+  dbeaver:
+    image: "dbeaver/cloudbeaver:24.2.0"
+    ports:
+      - "8978:8978"
+    volumes:
+      - ./docker/dbeaver-workspace:/opt/cloudbeaver/workspace
+    depends_on:
+      - trino
