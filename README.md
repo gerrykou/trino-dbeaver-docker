@@ -1,5 +1,5 @@
 # trino-dbeaver-docker
-How to run `trino` and `dbeaver` with `docker compose`
+How to run `trino` and `dbeaver` locally with `docker compose`
 
 ## Start services
 ```
