@@ -30,6 +30,13 @@ The default authentication for trino is:
 
 `User password:` leave it empty
 
+## Learn about Trino
+This is a good channel to start learning about Trino
+
+https://www.youtube.com/watch?v=y58sb9bW2mA
+
+Enjoy!
+
 ## Stop services
 ```
 docker compose down -v
