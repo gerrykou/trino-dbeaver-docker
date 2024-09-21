@@ -12,7 +12,7 @@ http://localhost:8978/
 
 ## Setup connection to trino
 
-![trinodb_connect](docs/trinodb_connect.jpg)
+![trinodb_connect](docs/trinodb_connect.png)
 
 Host: `trino`, as the name of the service in the `compose.yaml` file  
 
